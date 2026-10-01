@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    padding: 25px 40px;
+    background: #111827;
+    border-bottom: 1px solid #334155;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    color: #94a3b8;
+    margin-top: 5px;
+}
+
+main {
+    padding: 30px 40px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #334155;
+}
+
+.card h3 {
+    color: #94a3b8;
+    font-size: 15px;
+}
+
+.card p {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.alerts-section {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #334155;
+}
+
+.alerts-section h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 14px;
+    border-bottom: 1px solid #334155;
+}
+
+th {
+    color: #94a3b8;
+}
+
+.severity-high {
+    color: #ef4444;
+    font-weight: bold;
+}
+
+.severity-medium {
+    color: #f59e0b;
+    font-weight: bold;
+}
+
+.severity-low {
+    color: #22c55e;
+    font-weight: bold;
+}
+
+.investigation-card {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #334155;
+}
+
+.investigation-card h2 {
+    margin-bottom: 25px;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #334155;
+}
+
+.description {
+    margin-top: 25px;
+}
+
+.description h3 {
+    margin-bottom: 10px;
+}
+
+.description p {
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
+.actions {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.actions button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.alert-link {
+    color: #38bdf8;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.alert-link:hover {
+    opacity: 0.8;
+}
